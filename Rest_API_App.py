@@ -1,7 +1,6 @@
 from flask import Flask, request
 from flask_restful import Resource, Api
 from Rest_API_Models import Pessoas,Atividades,Usuarios
-from Rest_API_Utils import status
 from flask_httpauth import HTTPBasicAuth
 
 auth = HTTPBasicAuth()
